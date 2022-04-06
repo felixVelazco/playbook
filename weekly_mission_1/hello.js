@@ -1,0 +1,1 @@
+console.log("Hola launchX desde Node JS");
