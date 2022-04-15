@@ -10,7 +10,7 @@ const pullRequest = {
     return this.status;
   },
   getTitleAndAuthor: function(){
-    return `The pull request "${pullRequest.title}" was created by ${pullRequest.author}`
+    return `The pull request "${this.title}" was created by ${this.author}`
   }
 }
 
