@@ -1,0 +1,16 @@
+{
+  "name": "facebook",
+  "version": "1.0.0",
+  "description": "Ejemplo de modularizacion",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules ../../../examples5/node_modules/jest/bin/jest"
+  },
+  "keywords": [],
+  "author": "Felix Velazco",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
