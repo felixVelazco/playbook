@@ -8,7 +8,7 @@ const profile = {
     return this.name;
   },
   getLocation: function(){
-    return this.location;
+    return this.address;
   },
 }
 
