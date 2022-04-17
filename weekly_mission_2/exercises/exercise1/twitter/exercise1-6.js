@@ -4,7 +4,7 @@ const hashtag = {
   tweets:"16.5 millones tweets",
 
   getNameAndTweets: function(){
-    return `El hashtag ${hashtag.name} tiene ya ${this.tweets}`;
+    return `El hashtag ${this.name} tiene ya ${this.tweets}`;
   },
   getIsTrending: function(){
     return this.isTrending;
