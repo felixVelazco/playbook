@@ -4,7 +4,7 @@
   "description": "Ejercicio 2 \"Into the spiderverse\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/jest/bin/jest"
   },
   "author": "felix velazco",
   "license": "ISC",
