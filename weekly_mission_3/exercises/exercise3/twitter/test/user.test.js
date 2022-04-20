@@ -11,19 +11,27 @@ describe("Unit suite para la clase usuario", ()=> {
   })
 
   test("2) Test getUsername funtion", ()=>{
-    expect(felixUser.getUsername()).toBe("felix velazco");  
+    expect(felixUser.getUsername).toBe("felixvv7");  
   })
   
   test("3) Test getBio function", ()=>{
-    expect(felixUser.getBio()).toBe("just a normal guy");  
+    expect(felixUser.getBio).toBe("just a normal guy");  
   })
 
   test("4) Test getDateCreated function", ()=>{
-    expect(felixUser.getDateCreated()).not.toBeUndefined();  
+    expect(felixUser.getDateCreated).not.toBeUndefined();  
   })
  
   test("5) Test getLastUpdated function", ()=>{
-    expect(felixUser.getLastUpdated()).not.toBeUndefined();  
+    expect(felixUser.getLastUpdated).not.toBeUndefined();  
+  })
+  test("6) Test setters function", ()=> {
+    felixUser.setUsername = "felix10"
+    expect(felixUser.username).toBe("felix10");
+    
+    felixUser.setBio = "Pudin";
+    expect(felixUser.bio).toBe("Pudin");
+
   })
 })
 
