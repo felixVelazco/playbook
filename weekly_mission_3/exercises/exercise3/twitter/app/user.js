@@ -8,7 +8,7 @@ class User{
     this.lastUpdated = new Date();
   }
   get getUsername(){
-    return this.name;
+    return this.username;
   }
   get getBio(){
     return this.bio;
