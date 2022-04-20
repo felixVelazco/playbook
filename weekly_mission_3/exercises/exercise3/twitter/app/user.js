@@ -8,3 +8,5 @@ class User{
     this.lastUpdated = lastUpdated;
   }
 }
+
+module.exports = User;
