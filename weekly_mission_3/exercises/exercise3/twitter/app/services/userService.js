@@ -8,6 +8,9 @@ class UserService{
     const list = [user.id, user.username, user.name, user.bio]
     return list;
   }
+  static updateUserUsername(user, newUsername){
+    user.username = newUsername;
+  }
 }
 
 module.exports = UserService;
