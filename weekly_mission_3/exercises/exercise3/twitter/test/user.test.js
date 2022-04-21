@@ -5,6 +5,7 @@ describe("Unit suite para la clase usuario", ()=> {
   const felixUser = new User(1, "felix velazco", "felixvv7", "just a normal guy");
   
   test("1) Crear un objeto", ()=>{
+    expect(felixUser.id).toBe(1);
     expect(felixUser.name).toBe("felix velazco");
     expect(felixUser.username).toBe("felixvv7");
     expect(felixUser.bio).toBe("just a normal guy");
@@ -31,7 +32,7 @@ describe("Unit suite para la clase usuario", ()=> {
     
     felixUser.setBio = "Pudin";
     expect(felixUser.bio).toBe("Pudin");
-
   })
+  
 })
 
