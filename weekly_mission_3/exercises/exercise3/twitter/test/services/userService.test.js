@@ -15,7 +15,7 @@ describe('Unit test suite',() =>{
     expect(userInfo[2]).toBe("felix velazco");
     expect(userInfo[3]).toBe("Default");
   })
-  test('3) Try UpdateUserUsername funtion', () =>{
+  test('3) Try UpdateUserUsername function', () =>{
     const userFelix = UserService.create(1, "felixvv7", "felix velazco");
     UserService.updateUserUsername(userFelix, "felixRey");
     expect(userFelix.username).toBe("felixRey");
