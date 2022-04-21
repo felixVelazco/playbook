@@ -20,4 +20,15 @@ describe('Unit test suite',() =>{
     UserService.updateUserUsername(userFelix, "felixRey");
     expect(userFelix.username).toBe("felixRey");
   })
+  test('4) Try getAllUsernames function', () => {
+    const user1 = UserService.create(1, "user1", "felix1");
+    const user2 = UserService.create(2, "user2", "felix2");
+    const user3 = UserService.create(3, "user3", "felix3");
+
+    const allUsernames = UserService.getAllUsernames([user1, user2, user3]);
+    
+    expect(allUsernames).toContain("user1");
+    expect(allUsernames).toContain("user2");
+    expect(allUsernames).toContain("user3");
+  })
 });
