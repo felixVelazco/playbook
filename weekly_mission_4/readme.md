@@ -7,5 +7,5 @@ Proyectos desarrollados en la semana 4:
 |`fizzbuzz`|1, 2, 3|[Link al repo](https://github.com/felixVelazco/w4-refactoring)|
 |`PR`|4|[Link al repo](https://github.com/felixVelazco/fizzbuzz)|
 |`Code Challenge`|5|[Link al repo](https://github.com/felixVelazco/w4-code-challenge)|
-|`Trello`|6|(Falta documentar API)|
+|`Trello`|6|[Link a la documentación](https://documenter.getpostman.com/view/20636313/UyrGCaST)|
 |`Trello JS Fork`|7|[Link al repo](https://github.com/felixVelazco/w4-trello-js)|
